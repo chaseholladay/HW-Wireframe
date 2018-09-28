@@ -46,5 +46,9 @@ aside {
   height: 267px;
   overflow: hidden;
 }
+.clear-fix{
+
+	clear: both;
+}
 
 
