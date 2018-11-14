@@ -1,52 +1,110 @@
+<!-- Title Page for HW1 - Bio -->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-US">
 
 <head>
-  <style>
-    .articleAside {
-      display: flex;
-    }
+	<meta charset="UTF-8">
+	<title>Chase Holladay Bio</title>
+	<!--  CSS Files -->
+	<link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	
 
-    .article {
-      margin-right: 200px;
-      display: flex;
-      flex-direction: column;
-    }
-  </style>
-  <meta charset="utf-8">
-  <title>Wireframe</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<!-- Firebase Reference -->
+	
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+   
+    	<!-- jQuery Reference -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- Moment.js Reference -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+	<!-- Font Awesome Reference -->
+    <script src="https://use.fontawesome.com/8c1fdea402.js"></script>
+    
+
 </head>
 
-<body>
+<section class="header-bar"></section>
+<body class="background">
+	<header>
+		<h1 class="container heading pull-left">Chase Holladay</h1>
+		<nav class="container pull-right">
+		<!-- Links and Header for additional pages -->
+			<section class="navigation">
+				<a class="navigation" href="index.html">About</a>
+				<span> | </span>
+				<a class="navigation" href="portfolio.html">Porfolio</a>
+				<span> | </span>
+				<a class="navigation" href="contact.html">Contact</a>
+			</section>
+		</nav>
+	</header>
+	<!-- Main Section -->
+	<div class="main-section container">
+		<section>
+			<section class="titles">About Me</section>
+			<!-- Underline -->
+			<hr/>
+			<section></section>
+			<!-- Linked Profile Image -->
+			<img class="Self-Picture" src="assets/images/IMG_0383.JPG" alt="Chase Holladay">
 
-  <header>
-    <p>header</p>
-  </header>
+			<!-- Bio Summary: About Me -->
+			<p class="paragraph">ldsfEs un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsque</p>
+			<br>
+			<p class="paragraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-  <nav>
-    <p>nav</p>
-  </nav>
+      </p>
+		</section>
 
-  <section>
-    <heading>
-      <p>section</p>
-    </heading>
-    <article>
-      <heading>article</heading>
-      <h1>h1, h2, h3</h1>
-      <p>p</p>
-    </article>
-  </section>
+		<!-- Side Bar Section -->
+		<aside class="side-bar">
+			<h3 class="titles">Connect with Me</h3>
+			<!-- Underline -->
+			<hr/>
 
-  <aside>
-    <heading>
-      <p>aside</p>
-    </heading>
-  </aside>
-
-  <footer>
-    <p>footer</p>
-  </footer>
+			<!-- Images and Links for Social Media -->
+			<section class="link-images">
+				<a href="https://github.com/Chaseholladay">
+					<img class="Connect" src="/assets/images/github.png" alt="GitHub-Chase"/>
+				</a>
+				<a href="https://www.linkedin.com/in/chaseholladay/">
+					<img class="Connect" src="./assets/images/linkedin.png" alt="LinkedIn-logo"/>
+				</a>
+				
+			</section>
+		</aside>
+	</div>
 </body>
+
+<section class="footer-zone"></section>
+
+<!-- links and logos for networking -->
+<footer class="footer">
+	<div class="icon-wrap flex row">
+    <a href="https://www.linkedin.com/in/chaseHolladay">
+      <div class="flex icon" id="icon-2">
+        <i class="mdi mdi-linkedin">
+          ::before
+        </i>
+      </div>
+    </a>
+	<a href="https://www.facebook.com/chase.holladay.9">
+		<div class="flex icon" id="icon-2">
+		  <i class="mdi mdi-facebook">
+			::before
+		  </i>
+		</div>
+	  </a>
+	  <a href="https://github.com/chaseholladay">
+		<div class="flex icon" id="icon-2">
+		  <i class="mdi mdi-gitHub">
+			::before
+		  </i>
+		</div>
+	  </a>
+</footer>
+<script type="text/javascript" src="assets/javascript/logic.js"></script>
 </html>
